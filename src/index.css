@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column;/ */
+  align-items: center;
+}
+
+.wenas {
+  display: flex;
+  /* justify-items: center;
+  align-items: center; */
+}
+
+.wenas table {
+  border-spacing: 0;
+  border: 1px solid red;
+}
+
+.wenas table tr :last-child td {
+  border-bottom: 0;
+}
+
+.wenas table th,
+td {
+  margin: 0;
+  padding: 0.5rem;
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+}
+
+.wenas table th,
+td :last-child {
+  border-right: 0;
+}
+
+.wenas table tfoot tr:first-child td {
+  border-top: 1px solid red;
+}
+.wenas table tfoot {
+  font-weight: bolder;
+}
